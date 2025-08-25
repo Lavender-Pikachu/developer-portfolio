@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './components/Navbar'
-import MobileMenu from './components/MobileMenu'
+import Navbar from './ui/Navbar'
+import MobileMenu from './ui/MobileMenu'
 import Loading from './ui/LoadingScreenAnimation'
-import Home from './components/Home'
-import AnimationWaves from './components/AnimationWaves'
-import About from './components/About'
-import Contact from './components/Contact'
+import AnimationWaves from './ui/AnimationWaves'
+import About from './sections/About'
+import Contact from './sections/Contact'
+import Home from './sections/Home'
+import { Projects } from './sections/Projects'
 
 function App() {
   const [isLoading, setIsLoading] = useState(false)
@@ -20,6 +21,7 @@ function App() {
         <Home />
         <AnimationWaves/>
         <About />
+        <Projects />
         <Contact/>
       </div>
     </>
