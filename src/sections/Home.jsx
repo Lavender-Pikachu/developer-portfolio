@@ -24,7 +24,7 @@ const Home = () => {
             Contact Me
           </a>
           <a
-            className="bg-gradient-to-r flex flex-row from-teal-500 to-indigo-600 py-3 px-6
+            className="bg-gradient-to-r flex flex-row items-center from-teal-500 to-indigo-600 py-3 px-6
             rounded hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4] font-medium transition relative overflow-hidde"
           >
             <p>Resume</p>
