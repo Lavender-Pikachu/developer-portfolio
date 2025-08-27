@@ -10,6 +10,7 @@ import Home from './sections/Home'
 import { Projects } from './sections/Projects'
 import Footer from './sections/Footer'
 
+
 function App() {
   const [isLoading, setIsLoading] = useState(false)
   const [isMenuOpen, setIsMenuOpen] = useState(false)

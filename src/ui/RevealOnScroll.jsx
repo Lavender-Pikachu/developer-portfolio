@@ -32,5 +32,4 @@ export const RevealOnScroll = ({children}) => {
       {children}
     </div>
   )
-  }
-
+}
