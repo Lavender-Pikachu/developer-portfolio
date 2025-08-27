@@ -97,7 +97,7 @@ const About = () => {
   }, []);
   return (
     <section
-      id="#about"
+      id="about"
       className="min-h-screen font-mono flex items-center justify-center py-20"
     >
       <div className="max-w-11/12 mx-auto px-4 w-full">
@@ -131,11 +131,11 @@ const About = () => {
             </ul>
           </div>
           <div className="p-6 hover:-translate-y-1 transition-all">
-            <h3 className="text-2xl text-center font-bold mb-8">💻 Work Experience</h3>
+            <h3 className="text-2xl text-center font-bold mb-8">
+              💻 Work Experience
+            </h3>
             <ul className="pl-5 list-disc list-inside text-lg text-gray-300">
-              <li className="text-blue-300">
-                Backend developer(test)
-              </li>
+              <li className="text-blue-300">Backend developer(test)</li>
             </ul>
           </div>
         </div>

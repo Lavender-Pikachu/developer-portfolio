@@ -1,6 +1,5 @@
 import {useEffect, useRef} from 'react'
 
-
 export const RevealOnScroll = ({children}) => {
   const ref = useRef(null)
   useEffect(()=>{
@@ -33,4 +32,4 @@ export const RevealOnScroll = ({children}) => {
       {children}
     </div>
   )
-  }
+}
