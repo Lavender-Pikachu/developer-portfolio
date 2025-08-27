@@ -8,6 +8,7 @@ import About from './sections/About'
 import Contact from './sections/Contact'
 import Home from './sections/Home'
 import { Projects } from './sections/Projects'
+import Footer from './sections/Footer'
 
 function App() {
   const [isLoading, setIsLoading] = useState(false)
@@ -23,6 +24,7 @@ function App() {
         <About />
         <Projects />
         <Contact/>
+        <Footer/>
       </div>
     </>
   )

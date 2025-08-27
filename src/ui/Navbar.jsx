@@ -26,12 +26,12 @@ const Navbar = ({isMenuOpen, setIsMenuOpen}) => {
                   ">
                   About
                 </a>
-                <a href="#Experience"
+                {/* <a href="#experience"
                   className="text-gray-300 text-lg hover:text-xl hover:text-white
                   transition-all
                   ">
                   Experience
-                </a>
+                </a> */}
                 <a href="#projects"
                   className="text-gray-300 text-lg hover:text-xl hover:text-white
                   transition-all
